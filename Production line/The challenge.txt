@@ -1,0 +1,22 @@
+There's a production line, where there are two steps:
+
+1. people put bottles on a production belt
+2. people put caps on the bottles that are moving on the belt
+
+You can control the number of seconds it takes for the bottle to go
+from step 1 to step 2 (called buffer time).
+
+The time it takes for people to put a new bottle on the line AND
+the time to put a cap on the bottle is stochastic, given by some
+probability density functions (they may be different). These pdf's are
+already given.
+
+If more than <some number> of bottles are stuck in step 2 at
+the same time, the production belt breaks and you have lost
+the game.
+
+The goal is to maximize the number of bottles produced,
+while losing the game less than <some number> percent of
+the times.
+
+You can do this by Simulation.

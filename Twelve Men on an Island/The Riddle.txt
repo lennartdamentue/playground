@@ -1,0 +1,1 @@
+“There are 12 men on an island. 11 weigh exactly the same amount, but one of them is slightly lighter or heavier. You must figure out which. The island has no escapes, but there is a see-saw. The exciting catch? You can only use it three times.”
